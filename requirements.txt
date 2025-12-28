@@ -1,0 +1,4 @@
+pathway
+openai
+streamlit
+pandas

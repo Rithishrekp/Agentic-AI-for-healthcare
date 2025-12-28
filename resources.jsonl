@@ -1,0 +1,1 @@
+{"timestamp": "2025-12-28T10:00:00", "icu_beds_total": 20, "icu_beds_available": 2, "general_wards_total": 50, "general_wards_available": 15, "nurses_available": 5, "doctors_on_call": {"Cardiologists": ["Dr. Burke", "Dr. Yang"], "Dermatologists": ["Dr. Sloane"], "General Surgeons": ["Dr. Bailey", "Dr. Web"], "Neurologists": ["Dr. Shepherd"]}}

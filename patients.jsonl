@@ -1,0 +1,14 @@
+{"patient_id": "P1001", "name": "John Doe", "symptoms": "Severe chest pain, radiating to left arm", "vitals": {"bp": "160/95", "hr": 110, "spo2": 96}, "labs": {"troponin": "elevated"}}
+{"patient_id": "P1002", "name": "Jane Smith", "symptoms": "Mild fever, cough", "vitals": {"bp": "120/80", "hr": 85, "spo2": 98}, "labs": {}}
+{"patient_id": "P2001", "name": "Alice Wonderland", "symptoms": "Severe headache, slurred speech", "vitals": {"bp": "180/100", "hr": 90, "spo2": 95}, "labs": {}}
+{"patient_id": "P2002", "name": "Bob Builder", "symptoms": "Broken thumb", "vitals": {"bp": "130/80", "hr": 80, "spo2": 99}, "labs": {}}
+{"patient_id": "P2003", "name": "Charlie Brown", "symptoms": "Asthma attack, difficulty breathing", "vitals": {"bp": "140/90", "hr": 120, "spo2": 88}, "labs": {}}
+{"patient_id": "P2001", "name": "Alice Wonderland", "symptoms": "Severe headache, slurred speech", "vitals": {"bp": "180/100", "hr": 90, "spo2": 95}, "labs": {}}
+{"patient_id": "P2002", "name": "Bob Builder", "symptoms": "Broken thumb", "vitals": {"bp": "130/80", "hr": 80, "spo2": 99}, "labs": {}}
+{"patient_id": "P2003", "name": "Charlie Brown", "symptoms": "Asthma attack, difficulty breathing", "vitals": {"bp": "140/90", "hr": 120, "spo2": 88}, "labs": {}}
+{"patient_id": "P2001", "name": "Alice Wonderland", "symptoms": "Severe headache, slurred speech", "vitals": {"bp": "180/100", "hr": 90, "spo2": 95}, "labs": {}}
+{"patient_id": "P2002", "name": "Bob Builder", "symptoms": "Broken thumb", "vitals": {"bp": "130/80", "hr": 80, "spo2": 99}, "labs": {}}
+{"patient_id": "P2003", "name": "Charlie Brown", "symptoms": "Asthma attack, difficulty breathing", "vitals": {"bp": "140/90", "hr": 120, "spo2": 88}, "labs": {}}
+{"patient_id": "P2001", "name": "Alice Wonderland", "symptoms": "Severe headache, slurred speech", "vitals": {"bp": "180/100", "hr": 90, "spo2": 95}, "labs": {}}
+{"patient_id": "P2002", "name": "Bob Builder", "symptoms": "Broken thumb", "vitals": {"bp": "130/80", "hr": 80, "spo2": 99}, "labs": {}}
+{"patient_id": "P2003", "name": "Charlie Brown", "symptoms": "Asthma attack, difficulty breathing", "vitals": {"bp": "140/90", "hr": 120, "spo2": 88}, "labs": {}}

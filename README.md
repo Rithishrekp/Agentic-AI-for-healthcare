@@ -14,17 +14,20 @@ The agent ingests three distinct, asynchronous data streams:
 Patient Stream (Live): Intake forms arriving via JSON stream (simulating HL7/FHIR feeds).
 Resource Stream (Stateful): Real-time updates on ICU/ER bed capacity and staff availability.
 Knowledge Stream (Context): Medical guidelines and triage protocols (Markdown/Text), which can be updated dynamically without restarting the system.
+
 2. Processing Engine (Pathway)
 We utilize Pathway’s Rust-based engine for high-throughput, low-latency processing.
 
 pw.io.fs.read(mode="streaming"): continuously watches input sources.
 Windowing & Joins: The incoming patient stream is joined with the latest known state of the hospital resources. This integration ensures the AI never assigns a bed that doesn't exist.
+
 3. Agentic Logic (The "Brain")
 The core logic utilizes an LLM (OpenAI GPT-4o/3.5) with a robust fallback mechanism.
 
 Context Construction: For every patient, a dynamic prompt is assembled containing the specific patient's vitals, the current hospital capacity, and relevant sections of the triage guidelines.
 Decision Making: The agent classifies priority (1-5), assigns resources, and justifies its reasoning.
 Resilience: A rule-based fallback system activates automatically if the LLM API is unreachable (e.g., rate limits, network failure), ensuring 100% uptime for critical decisions.
+
 4. Output Layer (Action)
 Alerts: Critical cases trigger immediate alerts.
 Log: Decisions are streamed to a persistent audit log (
